@@ -1,0 +1,272 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\scripts\\mvc\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mvc\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\scripts\\mvc\\playerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mvc\\playerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|c:\\portfolio\\3d action rpg\\3d action rpg\\assets\\scripts\\mvc\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mvc\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\scripts\\unitask\\asyncimageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitask\\asyncimageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\scripts\\unitask\\taskgctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitask\\taskgctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\scripts\\loop\\loopperformancetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loop\\loopperformancetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\UniTaskGCTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UniTaskGCTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\scripts\\mvc\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mvc\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\AsyncImageLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AsyncImageLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\starterassets\\inputsystem\\starterassetsinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\starterassets\\inputsystem\\starterassetsinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\starterassets\\thirdpersoncontroller\\scripts\\basicrigidbodypush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\starterassets\\thirdpersoncontroller\\scripts\\basicrigidbodypush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\assets\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}|Assembly-CSharp.csproj|solutionrelative:assets\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Library\\PackageCache\\com.unity.inputsystem\\InputSystem\\Actions\\InputActionAsset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem\\InputSystem\\Actions\\InputActionAsset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\TaskGCTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TaskGCTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\LoopPerformanceTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LoopPerformanceTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\MVC\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MVC\\GameManager.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\MVC\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MVC\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:45:39.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoopPerformanceTest.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\Loop\\LoopPerformanceTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Loop\\LoopPerformanceTest.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\Loop\\LoopPerformanceTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Loop\\LoopPerformanceTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:40:36.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskGCTest.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\UniTask\\TaskGCTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UniTask\\TaskGCTest.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\UniTask\\TaskGCTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UniTask\\TaskGCTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:40:29.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AsyncImageLoader.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\UniTask\\AsyncImageLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UniTask\\AsyncImageLoader.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\UniTask\\AsyncImageLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UniTask\\AsyncImageLoader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:40:28.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerModel.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\MVC\\PlayerModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MVC\\PlayerModel.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\MVC\\PlayerModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MVC\\PlayerModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA1wDwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:39:31.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\MVC\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MVC\\PlayerController.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\MVC\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MVC\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:39:30.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerView.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\MVC\\PlayerView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MVC\\PlayerView.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\MVC\\PlayerView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MVC\\PlayerView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:39:23.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AsyncImageLoader.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\AsyncImageLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AsyncImageLoader.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\AsyncImageLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AsyncImageLoader.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:30:27.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UniTaskGCTest.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\UniTaskGCTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UniTaskGCTest.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\UniTaskGCTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UniTaskGCTest.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T07:27:57.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskGCTest.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\TaskGCTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TaskGCTest.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\TaskGCTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TaskGCTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T07:27:37.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoopPerformanceTest.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\LoopPerformanceTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoopPerformanceTest.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\Scripts\\LoopPerformanceTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoopPerformanceTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:10:59.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StarterAssetsInputs.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
+              "RelativeDocumentMoniker": "Assets\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
+              "RelativeToolTip": "Assets\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvygAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T07:35:33.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BasicRigidBodyPush.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
+              "RelativeDocumentMoniker": "Assets\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
+              "RelativeToolTip": "Assets\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T07:30:33.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InputActionAsset.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Library\\PackageCache\\com.unity.inputsystem\\InputSystem\\Actions\\InputActionAsset.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem\\InputSystem\\Actions\\InputActionAsset.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Library\\PackageCache\\com.unity.inputsystem\\InputSystem\\Actions\\InputActionAsset.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem\\InputSystem\\Actions\\InputActionAsset.cs",
+              "ViewState": "AQIAAPkAAAAAAAAAAAAewBIBAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:08:32.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ThirdPersonController.cs",
+              "DocumentMoniker": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "ToolTip": "C:\\Portfolio\\3D Action Rpg\\3D Action Rpg\\Assets\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "RelativeToolTip": "Assets\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "ViewState": "AQIAAH8BAAAAAAAAAAAcwKMBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:28:48.264Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8ad31a859110c1c44b5bb2878a1bbaff
+timeCreated: 1551606796
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129733
+  packageName: Frank Action RPG 2Handed (Combination)
+  packageVersion: 1.7
+  assetPath: Assets/Frank_RPG_2Handed/Documentation/Frank_RPG_2Handed.txt
+  uploadId: 300957

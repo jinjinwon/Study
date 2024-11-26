@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 33e45b6126e155940866b008b183e481
+timeCreated: 1551607151
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 31900000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129733
+  packageName: Frank Action RPG 2Handed (Combination)
+  packageVersion: 1.7
+  assetPath: Assets/Frank_RPG_2Handed/Assets/Animations/Frank_2Handed_Mask.mask
+  uploadId: 300957

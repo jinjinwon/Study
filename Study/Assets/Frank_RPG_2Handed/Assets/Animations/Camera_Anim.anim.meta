@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9e406c94aa059bd4786c3ec712383c99
+timeCreated: 1551609242
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129733
+  packageName: Frank Action RPG 2Handed (Combination)
+  packageVersion: 1.7
+  assetPath: Assets/Frank_RPG_2Handed/Assets/Animations/Camera_Anim.anim
+  uploadId: 300957
