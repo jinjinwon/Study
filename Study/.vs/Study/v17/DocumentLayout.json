@@ -1,0 +1,496 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|c:\\portfolio\\2dportfolio_adventurerpg\\study\\study\\assets\\scripts\\factory\\abstractfactory\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\abstractfactory\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|c:\\portfolio\\2dportfolio_adventurerpg\\study\\study\\assets\\scripts\\factory\\abstractfactory\\abstractproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\abstractfactory\\abstractproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|c:\\portfolio\\2dportfolio_adventurerpg\\study\\study\\assets\\scripts\\factory\\abstractfactory\\concreteproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\abstractfactory\\concreteproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\factorymethod\\gamemanager_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\factorymethod\\gamemanager_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\factorymethod\\product_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\factorymethod\\product_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\factorymethod\\concretecreator_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\factorymethod\\concretecreator_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\factorymethod\\enemyfactory_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\factorymethod\\enemyfactory_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\factorymethod\\monster_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\factorymethod\\monster_factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\simplefactory\\monster_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\simplefactory\\monster_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\simplefactory\\product_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\simplefactory\\product_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\simplefactory\\enemyfactory_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\simplefactory\\enemyfactory_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\simplefactory\\gamemanager_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\simplefactory\\gamemanager_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\command\\attackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\command\\attackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\behaviorqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\behaviorqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\eventmanager_ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\eventmanager_ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\command\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\command\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\playerdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\playerdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\aienums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aienums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\command\\fleecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\command\\fleecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\command\\chasecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\command\\chasecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\command\\idlecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\command\\idlecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\command\\dropfruitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\command\\dropfruitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\iai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\iai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\ai\\eventmessage\\eventmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\eventmessage\\eventmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\portfolio\\2dportfolio_adventurerpg\\study\\study\\assets\\scripts\\factory\\factorymethod\\enemyfactory_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\factory\\factorymethod\\enemyfactory_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\factorymethod\\gamemanager_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\factory\\factorymethod\\gamemanager_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\assets\\scripts\\factory\\factorymethod\\product_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\factory\\factorymethod\\product_simplefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AttackCommand.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\AttackCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\Command\\AttackCommand.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\AttackCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\Command\\AttackCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T05:49:32.266Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConcreteProduct.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\AbstractFactory\\ConcreteProduct.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\AbstractFactory\\ConcreteProduct.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\AbstractFactory\\ConcreteProduct.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\AbstractFactory\\ConcreteProduct.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:57:52.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AbstractFactory.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\AbstractFactory\\AbstractFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\AbstractFactory\\AbstractFactory.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\AbstractFactory\\AbstractFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\AbstractFactory\\AbstractFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:57:37.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AbstractProduct.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\AbstractFactory\\AbstractProduct.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\AbstractFactory\\AbstractProduct.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\AbstractFactory\\AbstractProduct.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\AbstractFactory\\AbstractProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:56:53.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager_FactoryMethod.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\GameManager_FactoryMethod.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\FactoryMethod\\GameManager_FactoryMethod.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\GameManager_FactoryMethod.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\FactoryMethod\\GameManager_FactoryMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:53:21.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConcreteCreator_FactoryMethod.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\ConcreteCreator_FactoryMethod.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\FactoryMethod\\ConcreteCreator_FactoryMethod.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\ConcreteCreator_FactoryMethod.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\FactoryMethod\\ConcreteCreator_FactoryMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:53:22.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyFactory_FactoryMethod.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\EnemyFactory_FactoryMethod.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\FactoryMethod\\EnemyFactory_FactoryMethod.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\EnemyFactory_FactoryMethod.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\FactoryMethod\\EnemyFactory_FactoryMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:52:00.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Monster_FactoryMethod.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\Monster_FactoryMethod.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\FactoryMethod\\Monster_FactoryMethod.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\Monster_FactoryMethod.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\FactoryMethod\\Monster_FactoryMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:51:08.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product_FactoryMethod.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\Product_FactoryMethod.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\FactoryMethod\\Product_FactoryMethod.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\Product_FactoryMethod.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\FactoryMethod\\Product_FactoryMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:50:55.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GameManager_SimpleFactory.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\GameManager_SimpleFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\FactoryMethod\\GameManager_SimpleFactory.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\GameManager_SimpleFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\FactoryMethod\\GameManager_SimpleFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:48:01.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product_SimpleFactory.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\Product_SimpleFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\FactoryMethod\\Product_SimpleFactory.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\Product_SimpleFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\FactoryMethod\\Product_SimpleFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:47:42.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EnemyFactory_SimpleFactory.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\EnemyFactory_SimpleFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\FactoryMethod\\EnemyFactory_SimpleFactory.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\FactoryMethod\\EnemyFactory_SimpleFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\FactoryMethod\\EnemyFactory_SimpleFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:47:31.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameManager_SimpleFactory.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\SimpleFactory\\GameManager_SimpleFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\SimpleFactory\\GameManager_SimpleFactory.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\SimpleFactory\\GameManager_SimpleFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\SimpleFactory\\GameManager_SimpleFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:42:11.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyFactory_SimpleFactory.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\SimpleFactory\\EnemyFactory_SimpleFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\SimpleFactory\\EnemyFactory_SimpleFactory.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\SimpleFactory\\EnemyFactory_SimpleFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\SimpleFactory\\EnemyFactory_SimpleFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:42:34.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Monster_SimpleFactory.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\SimpleFactory\\Monster_SimpleFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\SimpleFactory\\Monster_SimpleFactory.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\SimpleFactory\\Monster_SimpleFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\SimpleFactory\\Monster_SimpleFactory.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:42:12.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product_SimpleFactory.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\SimpleFactory\\Product_SimpleFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\SimpleFactory\\Product_SimpleFactory.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\Factory\\SimpleFactory\\Product_SimpleFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\SimpleFactory\\Product_SimpleFactory.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:40:20.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChaseCommand.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\ChaseCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\Command\\ChaseCommand.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\ChaseCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\Command\\ChaseCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:37:36.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IdleCommand.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\IdleCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\Command\\IdleCommand.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\IdleCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\Command\\IdleCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:37:17.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerDetector.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\PlayerDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\PlayerDetector.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\PlayerDetector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\PlayerDetector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvx4AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:48:07.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FleeCommand.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\FleeCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\Command\\FleeCommand.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\FleeCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\Command\\FleeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:39:09.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAI.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\IAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\IAI.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\IAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\IAI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:35:32.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AIController.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\AIController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIController.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\AIController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\AIController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswBQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:34:40.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BehaviorQueue.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\BehaviorQueue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\BehaviorQueue.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\BehaviorQueue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\BehaviorQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:34:14.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EventManager_AI.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\EventManager_AI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\EventManager_AI.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\EventManager_AI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\EventManager_AI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:33:13.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AIEnums.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\AIEnums.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIEnums.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\AIEnums.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\AIEnums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:32:31.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EventMessage.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\EventMessage\\EventMessage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\EventMessage\\EventMessage.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\EventMessage\\EventMessage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\EventMessage\\EventMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:29:35.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AI.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\AI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AI.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\AI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\AI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T05:46:49.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DropFruitCommand.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\DropFruitCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\Command\\DropFruitCommand.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\DropFruitCommand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\Command\\DropFruitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T05:51:11.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\Command.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\Command\\Command.cs",
+              "ToolTip": "C:\\Portfolio\\2DPortfolio_AdventureRPG\\Study\\Study\\Assets\\Scripts\\AI\\Command\\Command.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\Command\\Command.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T05:49:11.825Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

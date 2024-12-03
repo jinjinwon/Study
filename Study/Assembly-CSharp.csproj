@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4A0258CD-13A3-C452-5BA1-CB4DC2F9BF45}</ProjectGuid>
+    <ProjectGuid>{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,23 +61,70 @@
     <Analyzer Include="C:\Program Files\Unity 6000.0.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AI\Command\Command.cs" />
+    <Compile Include="Assets\Scripts\Factory\AbstractFactory\ConcreteFactory.cs" />
+    <Compile Include="Assets\Scripts\AI\AIController.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\Scripts\AI\AI.cs" />
+    <Compile Include="Assets\Scripts\MVVM\PlayerView_MVVM.cs" />
+    <Compile Include="Assets\Scripts\Observer\GameManager_Observer.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\Scripts\Factory\AbstractFactory\AbstractProduct.cs" />
     <Compile Include="Assets\Scripts\UniTask\UniTaskGCTest.cs" />
+    <Compile Include="Assets\Scripts\Factory\FactoryMethod\Monster_FactoryMethod.cs" />
+    <Compile Include="Assets\Scripts\MVP\PlayerView_MVP.cs" />
+    <Compile Include="Assets\Scripts\Factory\FactoryMethod\ConcreteCreator_FactoryMethod.cs" />
+    <Compile Include="Assets\Scripts\Factory\SimpleFactory\Monster_SimpleFactory.cs" />
+    <Compile Include="Assets\Scripts\MVP\PlayerPresenter.cs" />
+    <Compile Include="Assets\Scripts\AI\Command\FleeCommand.cs" />
     <Compile Include="Assets\Scripts\UniTask\TaskGCTest.cs" />
+    <Compile Include="Assets\Scripts\MVP\GameManager_MVP.cs" />
+    <Compile Include="Assets\Scripts\Observer\ISubject.cs" />
+    <Compile Include="Assets\Scripts\AI\Command\IdleCommand.cs" />
+    <Compile Include="Assets\Scripts\Command\ICommand.cs" />
+    <Compile Include="Assets\Scripts\Factory\FactoryMethod\GameManager_FactoryMethod.cs" />
     <Compile Include="Assets\Scripts\MVC\GameManager.cs" />
     <Compile Include="Assets\Scripts\MVC\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\MVC\PlayerView.cs" />
+    <Compile Include="Assets\Scripts\Command\InputHandler.cs" />
+    <Compile Include="Assets\Scripts\Factory\AbstractFactory\GameManager_AbstractFactory.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Scripts\UniTask\AsyncImageLoader.cs" />
+    <Compile Include="Assets\Scripts\Command\CommandPool.cs" />
+    <Compile Include="Assets\Scripts\AI\Command\ChaseCommand.cs" />
+    <Compile Include="Assets\Scripts\Factory\FactoryMethod\EnemyFactory_FactoryMethod.cs" />
+    <Compile Include="Assets\Scripts\AI\EventMessage\EventMessage.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\Factory\SimpleFactory\Product_SimpleFactory.cs" />
+    <Compile Include="Assets\Scripts\MVVM\GameManager_MVVM.cs" />
+    <Compile Include="Assets\Scripts\AI\EventManager_AI.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\Observer\IObserver.cs" />
+    <Compile Include="Assets\Scripts\AI\PlayerDetector.cs" />
+    <Compile Include="Assets\Scripts\MVVM\PlayerViewModel.cs" />
+    <Compile Include="Assets\Scripts\Observer\ConcreteSubject.cs" />
     <Compile Include="Assets\Scripts\Loop\LoopPerformanceTest.cs" />
+    <Compile Include="Assets\Scripts\Observer\ConcreteObserver_UI.cs" />
+    <Compile Include="Assets\Scripts\Factory\SimpleFactory\GameManager_SimpleFactory.cs" />
+    <Compile Include="Assets\Scripts\AI\Command\DropFruitCommand.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\Scripts\MVVM\PlayerModel_MVVM.cs" />
+    <Compile Include="Assets\Scripts\Command\MoveCommand.cs" />
+    <Compile Include="Assets\Scripts\AI\AIEnums.cs" />
+    <Compile Include="Assets\Scripts\MVP\PlayerModel_MVP.cs" />
+    <Compile Include="Assets\Scripts\Observer\ConcreteObserver_Sound.cs" />
+    <Compile Include="Assets\Scripts\Factory\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\AbstractFactory\ConcreteProduct.cs" />
+    <Compile Include="Assets\Scripts\Factory\FactoryMethod\Product_FactoryMethod.cs" />
     <Compile Include="Assets\Scripts\MVC\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\AI\BehaviorQueue.cs" />
+    <Compile Include="Assets\Scripts\AI\IAI.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Scripts\Factory\SimpleFactory\EnemyFactory_SimpleFactory.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Scripts\Command\Character.cs" />
+    <Compile Include="Assets\Scripts\AI\Command\AttackCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StarterAssets\license.txt" />
