@@ -20,3 +20,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8073924147f3dad47989a63e6dd1be8e, type: 2}
   - {fileID: 11400000, guid: 8501e703c9e884f4d918b074a7c863f5, type: 2}
   initialState: 0
+  eventType: PlayerOutOfRange

@@ -13,7 +13,6 @@ public class BehaviorQueue
             _priorityQueue[priority] = new List<Command>();
         }
 
-        // 중복 명령 방지 로직 추가
         if (!_priorityQueue[priority].Contains(command))
         {
             _priorityQueue[priority].Add(command);
@@ -22,7 +21,11 @@ public class BehaviorQueue
 
     public void ExecuteNext(Transform aiTransform, Transform target = null)
     {
-        if (_currentCommand != null) return;
+        if (_currentCommand != null)
+        {
+            _currentCommand.Cancel();
+            _currentCommand = null;
+        }
 
         foreach (var commandList in _priorityQueue.Values)
         {
@@ -30,8 +33,7 @@ public class BehaviorQueue
             {
                 _currentCommand = commandList[0];
                 commandList.RemoveAt(0);
-                _currentCommand.Execute(aiTransform, target);
-                _currentCommand = null;
+                _currentCommand.StartExecution(aiTransform, target);
                 break;
             }
         }

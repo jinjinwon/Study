@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AIController : MonoBehaviour, IAI
 {
-    public AI aiDefinition; // ScriptableObject 연결
+    public AI aiDefinition;
     private BehaviorQueue _behaviorQueue = new BehaviorQueue();
     private AIState _currentState;
     private Transform _target;
@@ -18,7 +18,8 @@ public class AIController : MonoBehaviour, IAI
         }
 
         _currentState = aiDefinition.initialState;
-        EventManager_AI.Instance.RegisterObserver(this);
+        EventManager_AI.Instance.RegisterObserver(this, aiDefinition.eventType);
+        EventManager_AI.Instance.RegisterObserver(this, "PlayerOutOfRange");
 
         if (aiDefinition.isDynamic)
         {
@@ -30,14 +31,25 @@ public class AIController : MonoBehaviour, IAI
     {
         while (true)
         {
-            _behaviorQueue.ExecuteNext(this.transform, _target);
-            yield return new WaitForSeconds(1f); // 명령을 주기적으로 실행하도록 설정
+            _behaviorQueue.ExecuteNext(transform, _target);
+            yield return null; // 매 프레임마다 명령 실행 시도
         }
     }
 
     public void Notify(EventMessage eventMessage)
     {
         Debug.Log($"AI {aiDefinition.aiName} received event: {eventMessage.messageName}");
+
+        if (eventMessage.messageName == "PlayerNear")
+        {
+            SetTarget(GameObject.FindWithTag("Player").transform);
+            ChangeState(AIState.Chase);
+        }
+        else if (eventMessage.messageName == "PlayerOutOfRange")
+        {
+            SetTarget(null);
+            ChangeState(AIState.Idle);
+        }
 
         foreach (var command in aiDefinition.commands)
         {
@@ -48,12 +60,6 @@ public class AIController : MonoBehaviour, IAI
         }
     }
 
-    public void Interact()
-    {
-        Debug.Log($"Interacting with AI {aiDefinition.aiName}");
-        EventManager_AI.Instance.NotifyObservers(Resources.Load<EventMessage>("PlayerInteracted"));
-    }
-
     public void ChangeState(AIState newState)
     {
         if (_currentState == newState) return;
@@ -61,19 +67,15 @@ public class AIController : MonoBehaviour, IAI
         _currentState = newState;
         Debug.Log($"AI 상태 변경: {_currentState}");
 
+        _behaviorQueue = new BehaviorQueue();
+
         switch (_currentState)
         {
             case AIState.Idle:
-                _behaviorQueue.AddCommand(new IdleCommand(), 1);
+                _behaviorQueue.AddCommand(ScriptableObject.CreateInstance<IdleCommand>(), 1);
                 break;
             case AIState.Chase:
-                _behaviorQueue.AddCommand(new ChaseCommand(), 2);
-                break;
-            case AIState.Attack:
-                _behaviorQueue.AddCommand(new AttackCommand(), 3);
-                break;
-            case AIState.Flee:
-                _behaviorQueue.AddCommand(new FleeCommand(), 4);
+                _behaviorQueue.AddCommand(ScriptableObject.CreateInstance<ChaseCommand>(), 2);
                 break;
         }
     }

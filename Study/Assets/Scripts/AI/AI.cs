@@ -8,4 +8,5 @@ public class AI : ScriptableObject
     public bool isDynamic; // 동적/정적 여부
     public List<Command> commands; // 실행 가능한 Command 목록
     public AIState initialState; // 초기 상태
+    public string eventType;
 }

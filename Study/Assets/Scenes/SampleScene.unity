@@ -791,7 +791,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434067415}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 864f1f74afa7f77419adc2f5582b806a, type: 3}
   m_Name: 
@@ -1150,13 +1150,14 @@ GameObject:
   - component: {fileID: 1607719387}
   - component: {fileID: 1607719386}
   - component: {fileID: 1607719391}
+  - component: {fileID: 1607719392}
   m_Layer: 0
   m_Name: Lion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1607719386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1164,7 +1165,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607719385}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18476abebe39af8429752e1128666c45, type: 3}
   m_Name: 
@@ -1266,7 +1267,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607719385}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 671f2dc78fe18db49997a65e11443692, type: 3}
   m_Name: 
@@ -1274,6 +1275,18 @@ MonoBehaviour:
   player: {fileID: 135757257}
   detectionRange: 10
   playerNearEvent: {fileID: 11400000, guid: a62bc9e0e0bde0d4f9a33145e1895b3f, type: 2}
+--- !u!114 &1607719392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607719385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd929493377843647bf42e41c9e649a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1647834815
 GameObject:
   m_ObjectHideFlags: 0

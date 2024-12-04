@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64cfb498f5ab8b347a0d3f443efbd998, type: 3}
-  m_Name: PlayerSpotted
+  m_Name: PlayerSpotted 1
   m_EditorClassIdentifier: 
-  messageName: PlayerNear
-  relatedCommand: {fileID: 11400000, guid: 8501e703c9e884f4d918b074a7c863f5, type: 2}
+  messageName: PlayerOutOfRange
+  relatedCommand: {fileID: 11400000, guid: 8073924147f3dad47989a63e6dd1be8e, type: 2}

@@ -27,15 +27,11 @@ public class PlayerDetector : MonoBehaviour
         {
             playerInRange = true;
             EventManager_AI.Instance.NotifyObservers(playerNearEvent);
-            _aiController.SetTarget(player);
-            _aiController.ChangeState(AIState.Chase); // 상태를 Chase로 변경
         }
         else if (distance > detectionRange && playerInRange)
         {
             playerInRange = false;
-            Debug.Log($"{player.name}이(가) 범위를 벗어났습니다.");
-            _aiController.SetTarget(null);
-            _aiController.ChangeState(AIState.Idle); // 상태를 Idle로 변경
+            EventManager_AI.Instance.NotifyObservers(new EventMessage("PlayerOutOfRange", null));
         }
     }
 }

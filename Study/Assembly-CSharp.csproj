@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\Factory\FactoryMethod\GameManager_FactoryMethod.cs" />
     <Compile Include="Assets\Scripts\MVC\GameManager.cs" />
     <Compile Include="Assets\Scripts\MVC\PlayerModel.cs" />
+    <Compile Include="Assets\Scripts\State\AttackState.cs" />
     <Compile Include="Assets\Scripts\MVC\PlayerView.cs" />
     <Compile Include="Assets\Scripts\Command\InputHandler.cs" />
     <Compile Include="Assets\Scripts\Factory\AbstractFactory\GameManager_AbstractFactory.cs" />
@@ -95,8 +96,10 @@
     <Compile Include="Assets\Scripts\Factory\FactoryMethod\EnemyFactory_FactoryMethod.cs" />
     <Compile Include="Assets\Scripts\AI\EventMessage\EventMessage.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\State\GameManager_State.cs" />
     <Compile Include="Assets\Scripts\Factory\SimpleFactory\Product_SimpleFactory.cs" />
     <Compile Include="Assets\Scripts\MVVM\GameManager_MVVM.cs" />
+    <Compile Include="Assets\Scripts\State\IdleState.cs" />
     <Compile Include="Assets\Scripts\AI\EventManager_AI.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
@@ -111,10 +114,12 @@
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\Scripts\MVVM\PlayerModel_MVVM.cs" />
     <Compile Include="Assets\Scripts\Command\MoveCommand.cs" />
+    <Compile Include="Assets\Scripts\State\StateMachine.cs" />
     <Compile Include="Assets\Scripts\AI\AIEnums.cs" />
     <Compile Include="Assets\Scripts\MVP\PlayerModel_MVP.cs" />
     <Compile Include="Assets\Scripts\Observer\ConcreteObserver_Sound.cs" />
     <Compile Include="Assets\Scripts\Factory\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Assets\Scripts\State\IState.cs" />
     <Compile Include="Assets\Scripts\Factory\AbstractFactory\ConcreteProduct.cs" />
     <Compile Include="Assets\Scripts\Factory\FactoryMethod\Product_FactoryMethod.cs" />
     <Compile Include="Assets\Scripts\MVC\PlayerController.cs" />
