@@ -15,7 +15,7 @@ MonoBehaviour:
   ItemType: 0
   ItemName: "\uBABD\uB465\uC774"
   Description: "\uB2E8\uB2E8\uD55C \uBABD\uB465\uC774 \uC785\uB2C8\uB2E4."
-  Icon: {fileID: 21300000, guid: 2ebcf8538e26105488266890951e768c, type: 3}
+  Icon: {fileID: 21300000, guid: 2bcc241a6a01a4e4b808da0cd498a8ca, type: 3}
   IsStackable: 0
   MaxStackSize: 0
   StatModifiers:

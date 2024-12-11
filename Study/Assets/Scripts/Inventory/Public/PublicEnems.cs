@@ -36,3 +36,10 @@ public enum StatType
     HP,                     // 체력
     Stamina                 // 기력
 }
+
+public enum SortType
+{
+    ByName,        // 이름 순
+    ByQuantity,    // 수량 순
+    ByItemType,    // 아이템 타입 순
+}
