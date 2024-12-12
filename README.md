@@ -13,5 +13,5 @@
 >- 9. Factory 패턴
 >- 10. State 패턴
 >- 11. Asset 소개 (Starter Assets - ThirdPerson)
->- 12. Inventory 작업 (Stat, Item, Inventory)
+>- 12. Inventory 작업 (Stat, Item, Inventory, Equipment)
 
