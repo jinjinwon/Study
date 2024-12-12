@@ -3,6 +3,7 @@
 /// </summary>
 public enum EquipType   
 {
+    None = 0,
     Helmet,             // Çï¸ä
     Armor,              // °©¿Ê
     Weapon_1,           // ¹«±â 1
