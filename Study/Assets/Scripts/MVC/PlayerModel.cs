@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using static Cinemachine.DocumentationSortingAttribute;
 
 public class PlayerModel
 {
