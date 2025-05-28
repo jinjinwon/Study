@@ -1,4 +1,3 @@
-// MoveToFoodAction.cs
 using UnityEngine;
 
 public class MoveToFoodAction : GOAPAction
@@ -16,7 +15,7 @@ public class MoveToFoodAction : GOAPAction
 
     public override bool CheckProceduralPrecondition(GameObject agent)
     {
-        // **여기서** 이전 실행의 reached 상태 초기화
+        // 이전 실행의 reached 상태 초기화
         reached = false;
 
         var foods = GameObject.FindGameObjectsWithTag("Food");

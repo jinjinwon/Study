@@ -1,40 +1,61 @@
-// SimpleGOAPAgent.cs
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(GOAPAction))]
+[RequireComponent(typeof(PlayerHealth))]
 public class SimpleGOAPAgent : MonoBehaviour, IGOAPAgent
 {
-    public float moveSpeed = 3f;
-    private Queue<GOAPAction> plan;
-    private HashSet<GOAPAction> availableActions = new HashSet<GOAPAction>();
-    private GOAPPlanner planner;
+    public float moveSpeed = 4f;
 
-    void Start()
+    private Queue<GOAPAction> plan;
+    private HashSet<GOAPAction> availableActions;
+    private GOAPPlanner planner;
+    private PlayerHealth health;
+
+    // 새로 추가된 부분 ↓
+    private Dictionary<string, object> lastGoal;
+
+    private void Start()
     {
         planner = new GOAPPlanner();
-        foreach (var a in GetComponents<GOAPAction>())
-            availableActions.Add(a);
+        health = GetComponent<PlayerHealth>();
+        availableActions = new HashSet<GOAPAction>(GetComponents<GOAPAction>());
+        lastGoal = null;
     }
 
-    void Update()
+    private void Update()
     {
-        // 1) 남은 Food 없으면 멈춤
-        if (GameObject.FindGameObjectsWithTag("Food").Length == 0) return;
+        // 최신 세계 상태·목표 계산
+        var world = GetWorldState();
+        var goal = CreateGoalState();
 
-        // 2) 플랜 없거나 소진됐으면 새로 짜기
-        if (plan == null || plan.Count == 0)
+        // 목표가 바뀌었으면 플랜 무효화
+        if (lastGoal == null || !DictionaryEquals(goal, lastGoal))
         {
-            plan = planner.Plan(gameObject, availableActions, GetWorldState(), CreateGoalState());
-            if (plan != null) PlanFound(CreateGoalState(), plan);
-            else PlanFailed(CreateGoalState());
+            plan = null;
+            lastGoal = new Dictionary<string, object>(goal);
+        }
+
+        // 이미 목표 달성 상태면 완료 콜백만
+        if (DictionaryEquals(world, goal))
+        {
+            ActionsFinished();
             return;
         }
 
+        // 플랜이 없으면 새로 생성
+        if (plan == null || plan.Count == 0)
+        {
+            plan = planner.Plan(gameObject, availableActions, world, goal);
+            if (plan != null) PlanFound(goal, plan);
+            else PlanFailed(goal);
+            return;
+        }
+
+        // 현재 액션 실행
         var action = plan.Peek();
 
-        // 3) 이동이 필요하면 타겟 찾고 이동만 수행
-        if (action.RequiresInRange() && !action.IsInRange())
+        // 이동 필요 시: 타겟 갱신 후 이동하고 리턴
+        if (action.RequiresInRange() && !action.inRange)
         {
             if (!action.CheckProceduralPrecondition(gameObject))
             {
@@ -43,79 +64,90 @@ public class SimpleGOAPAgent : MonoBehaviour, IGOAPAgent
                 return;
             }
             MoveAgent(action);
-            return;  // 이동만 한 뒤 바로 리턴
+            return;
         }
 
-        // 4) 사거리 안이거나 이동 불필요 시 Perform
+        // Perform 실행
         bool success = action.Perform(gameObject);
         if (success)
         {
-            // 완료된 액션 제거
             plan.Dequeue();
             action.inRange = false;
-
-            // **남은 액션이 없으면** 모든 액션 완료 콜백
-            if (plan.Count == 0)
-            {
-                ActionsFinished();
-                plan = null;
-            }
-            // **남은 액션이 있으면** 다음 큐브를 위해 재계획
-            else
-            {
-                plan = null;
-            }
+            // 한 액션 끝날 때마다 바로 재계획
+            plan = null;
         }
         else
         {
-            // 수행 실패 시 재계획
             PlanAborted(action);
             plan = null;
         }
     }
 
-
     public bool MoveAgent(GOAPAction nextAction)
     {
-        if (nextAction is MoveToFoodAction move)
-        {
-            var tgt = move.Target;
-            if (tgt == null) return false;
-            float step = moveSpeed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, tgt.position, step);
-            nextAction.inRange = Vector3.Distance(transform.position, tgt.position) <= nextAction.actionRange;
-        }
+        Transform t = null;
+        if (nextAction is AttackEnemyAction atk) t = atk.Target;
+        else if (nextAction is FleeAction flee) t = flee.Target;
+
+        if (t == null) return false;
+        transform.position = Vector3.MoveTowards(
+            transform.position,
+            t.position,
+            moveSpeed * Time.deltaTime
+        );
+        nextAction.inRange = Vector3.Distance(transform.position, t.position) <= nextAction.actionRange;
         return true;
     }
 
     public Dictionary<string, object> GetWorldState()
     {
-        int count = GameObject.FindGameObjectsWithTag("Food").Length;
-        return new Dictionary<string, object> { { "FoodCount", count } };
+        int enemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        bool healthLow = health.CurrentHealth < 30;
+        return new Dictionary<string, object> {
+            { "EnemyCount", enemies },
+            { "HealthLow",   healthLow }
+        };
     }
 
     public Dictionary<string, object> CreateGoalState()
     {
-        return new Dictionary<string, object> { { "FoodCount", 0 } };
+        var goal = new Dictionary<string, object>();
+        if (health.CurrentHealth < 30)
+            goal["AtSafeZone"] = true;
+        else
+            goal["EnemyCount"] = 0;
+        return goal;
     }
 
     public void PlanFailed(Dictionary<string, object> failedGoal)
     {
-        Debug.Log("Plan failed");
+        Debug.Log("GOAP: Plan failed");
     }
 
     public void PlanFound(Dictionary<string, object> goal, Queue<GOAPAction> actions)
     {
-        Debug.Log("Plan found: " + actions.Count + " actions");
+        Debug.Log("GOAP: Plan found, " + actions.Count + " actions");
     }
 
     public void ActionsFinished()
     {
-        Debug.Log("All actions completed");
+        Debug.Log("GOAP: All actions completed");
     }
 
     public void PlanAborted(GOAPAction aborter)
     {
-        Debug.Log("Plan aborted: " + aborter);
+        Debug.Log("GOAP: Plan aborted because of " + aborter);
+    }
+
+    // 이전 프레임의 목표상태와 현재 프레임에 목표 상태를 비교하는 함수 (목표가 바뀌었는지 판단)
+    private bool DictionaryEquals(Dictionary<string, object> a,Dictionary<string, object> b)
+    {
+        if (a.Count != b.Count) return false;
+        foreach (var kv in a)
+        {
+            if (!b.TryGetValue(kv.Key, out var bv)) return false;
+            if (!kv.Value.Equals(bv)) return false;
+        }
+        return true;
     }
 }

@@ -1,4 +1,3 @@
-// EatFoodAction.cs
 using UnityEngine;
 
 public class EatFoodAction : GOAPAction

@@ -1,4 +1,3 @@
-// FindFoodAction.cs
 using UnityEngine;
 
 public class FindFoodAction : GOAPAction
